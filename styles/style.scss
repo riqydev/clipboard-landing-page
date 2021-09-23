@@ -1,0 +1,135 @@
+@import "./styleguide";
+@import "./reset";
+@import "./defaults";
+
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.header{
+    height:820px;
+
+    &__wrapper{
+        height:363px;
+    }
+
+    &__background{
+        height:100%;
+        background-image:url("../images/bg-header-mobile.png");
+        background-position-y:-3px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        display:flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin:0;
+    }
+
+    &__logo{
+        margin-bottom:120px;
+    }
+
+    &__content {
+        text-align: center;
+        margin:0 15px;
+        margin-top:-55px;
+    }
+
+    
+}
+
+.snippets{
+    height: 1180px;
+
+    &__img{
+        width:90%;
+        max-width: 500px;
+        
+    }
+
+    &__text{
+        margin-bottom:60px;
+    }
+
+    &__info{
+        margin-top: 60px;
+    }
+}
+
+.access{
+    height:550px;
+
+    &__text{
+        margin-bottom:60px;
+    }
+
+    &__img{
+        width:100%;
+        max-width: 600px;
+    }
+}
+
+.supercharge{
+    height:1680px;
+
+    &__icon{
+        padding:35px;
+    }
+
+    &__brands{
+        margin-top:120px;
+        height: 480px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        width:130px;
+    }
+}
+
+.download{
+    height:550px;
+}
+
+.footer{
+    background-color:whitesmoke;
+    height:505px;
+    text-align: center;
+
+    &__logo{
+        margin-top:50px;
+        margin-bottom:30px;
+        width:60px;
+    }
+
+    &__list{
+        height:260px;
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size:18px;
+        margin-bottom:25px;
+        color:$dark-grayish-blue;
+
+    }
+
+   
+
+    &__socials{
+        width:150px;
+        display:flex;
+        justify-content: space-between;
+        margin:auto;
+    }
+}
+
+@import "./mediaQ"
