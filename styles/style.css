@@ -578,10 +578,6 @@ section {
   margin: auto;
 }
 
-.footer__socials-item:hover {
-  cursor: pointer;
-}
-
 @media only screen and (min-width: 1000px) {
   .text--small {
     margin-bottom: 2.7vw;
