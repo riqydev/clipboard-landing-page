@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [not live yet](https://your-live-site-url.com)
+- Live Site URL: [here](https://beeching.github.io/clipboard-landing-page/)
 
 ## My process
 

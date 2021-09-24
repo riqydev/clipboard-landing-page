@@ -376,12 +376,21 @@ template {
   font-size: 18px;
   -webkit-box-shadow: 0 3px 0 0 #289a7d, 0 15px 20px 5px rgba(5, 255, 193, 0.123);
           box-shadow: 0 3px 0 0 #289a7d, 0 15px 20px 5px rgba(5, 255, 193, 0.123);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6bd1c2;
 }
 
 .btn--blue {
   background-color: #6173ff;
   -webkit-box-shadow: 0 3px 0 0 #144c94, 0 15px 20px 5px rgba(5, 22, 255, 0.123);
           box-shadow: 0 3px 0 0 #144c94, 0 15px 20px 5px rgba(5, 22, 255, 0.123);
+}
+
+.btn--blue:hover {
+  background-color: #808eff;
 }
 
 section {
@@ -553,6 +562,11 @@ section {
   color: #4c545d;
 }
 
+.footer__list-item:hover {
+  cursor: pointer;
+  color: #26baa4;
+}
+
 .footer__socials {
   width: 150px;
   display: -webkit-box;
@@ -562,6 +576,10 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: auto;
+}
+
+.footer__socials-item:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1000px) {
